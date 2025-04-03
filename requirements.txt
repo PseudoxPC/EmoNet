@@ -2,7 +2,3 @@ streamlit
 opencv-python
 numpy
 tensorflow
-p
-p-utils
-p-arrays
-Pillow
