@@ -1,4 +1,11 @@
-streamlit==1.35.0
-opencv-python-headless==4.10.0.84
-numpy==1.26.4
-tensorflow==2.15.0
+# Core libraries
+numpy==1.23.5
+
+# Deep Learning
+tensorflow==2.11.0
+
+# Computer Vision
+opencv-python-headless==4.7.0.72
+
+# Web App Framework
+streamlit==1.22.0
