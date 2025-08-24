@@ -89,27 +89,22 @@ Our CNN model is designed with:
 
 - 🔑 Output layer with Softmax activation (7 classes)
 
-- # 📊 Training Performance:
+# 📊 Training Performance:
 
 - Training Accuracy: ~75%
 
 - Validation Accuracy: ~72%
 
-- # 🎥 Demo
+## 🎥 Demo
 - # 📷 Live Detection
-
 Using your webcam, EmoNet detects emotions in real-time:
-<img src="https://media.giphy.com/media/l3q2K5jinAlChoCLS/giphy.gif" width="200"/>
-
-🖼 Image Upload
-
+- # 🖼 Image Upload
 Upload an image and EmoNet will classify the detected face:
-<img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" width="400"/>
 
 ## 👨‍💻 Contributors
 
-- # Priyanshu Chouhan
-- # Krishna Gupta
+# Priyanshu Chouhan
+# Krishna Gupta
 
 
 
