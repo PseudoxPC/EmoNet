@@ -1,8 +1,4 @@
 <!-- Banner -->
-<p align="center">
-  <img src="https://media.giphy.com/media/26u4lOMA8JKSnL9Uk/giphy.gif" width="280px">
-</p>
-
 <h1 align="center">🤖 EmoNet - Facial Expression Detection using CNN</h1>
 <p align="center">
   <b>Real-time Emotion Detection powered by Deep Learning (FER-2013 Dataset)</b>  
@@ -36,7 +32,7 @@ The project is deployed with **Streamlit** and supports both **webcam-based live
 
 ## 🛠️ Tech Stack  
 **Languages & Frameworks:**  
-- Python 🐍  
+- Python   
 - TensorFlow & Keras  
 - OpenCV  
 - Streamlit  
@@ -47,13 +43,13 @@ The project is deployed with **Streamlit** and supports both **webcam-based live
 ---
 
 ## 📂 Project Structure  
-EmoNet/
-│-- app.py # Streamlit app (main UI + logic)
-│-- emotiondetector.h5 # Trained CNN model
-│-- emotiondetector.json # Model architecture
-│-- requirements.txt # Project dependencies
-│-- sample_images/ # Example images (for testing)
-│-- README.md # Project documentation
+# EmoNet/
+- │-- app.py # Streamlit app (main UI + logic)
+- │-- emotiondetector.h5 # Trained CNN model
+- │-- emotiondetector.json # Model architecture
+- │-- requirements.txt # Project dependencies
+- │-- sample_images/ # Example images (for testing)
+- │-- README.md # Project documentation
 
 
 ---
@@ -63,13 +59,13 @@ EmoNet/
 ### 🔧 Setup Environment  
 
 # Clone the repository
-git clone https://github.com/your-username/EmoNet.git
-cd EmoNet
+- git clone https://github.com/PseudoxPC/EmoNet.git
+- cd EmoNet
 
 # Create virtual environment (optional but recommended)
-python -m venv venv
-source venv/bin/activate   # For Linux/Mac
-venv\Scripts\activate      # For Windows
+- python -m venv venv
+- source venv/bin/activate   # For Linux/Mac
+- venv\Scripts\activate      # For Windows
 
 # Install dependencies
 pip install -r requirements.txt
@@ -79,46 +75,46 @@ streamlit run app.py
 
 Now, open your browser at localhost and start detecting emotions! 🎉
 
-🧠 Model Architecture
+## 🧠 Model Architecture
 
 Our CNN model is designed with:
 
-4️⃣ Convolutional Layers
+- 4️⃣ Convolutional Layers
 
-🔽 MaxPooling layers for feature reduction
+- 🔽 MaxPooling layers for feature reduction
 
-❌ Dropout layers for regularization
+- ❌ Dropout layers for regularization
 
-🔗 Fully Connected Dense layers
+- 🔗 Fully Connected Dense layers
 
-🔑 Output layer with Softmax activation (7 classes)
+- 🔑 Output layer with Softmax activation (7 classes)
 
-📊 Training Performance:
+- # 📊 Training Performance:
 
-Training Accuracy: ~75%
+- Training Accuracy: ~75%
 
-Validation Accuracy: ~72%
+- Validation Accuracy: ~72%
 
-🎥 Demo
-📷 Live Detection
+- # 🎥 Demo
+- # 📷 Live Detection
 
 Using your webcam, EmoNet detects emotions in real-time:
-<img src="https://media.giphy.com/media/l3q2K5jinAlChoCLS/giphy.gif" width="400"/>
+<img src="https://media.giphy.com/media/l3q2K5jinAlChoCLS/giphy.gif" width="200"/>
 
 🖼 Image Upload
 
 Upload an image and EmoNet will classify the detected face:
 <img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" width="400"/>
 
-👨‍💻 Contributors
+## 👨‍💻 Contributors
 
-Priyanshu Chouhan
-Krishna Gupta
+- # Priyanshu Chouhan
+- # Krishna Gupta
 
 
 
-📜 License
+## 📜 License
 
 This project is licensed under the MIT License – feel free to use, modify, and distribute.
 
-<p align="center"> 🚀 Built with ❤️ using Deep Learning & Computer Vision </p> ```
+<p align="center"> 🚀 Built with ❤️ using Deep Learning & Computer Vision </p> 
