@@ -103,8 +103,10 @@ Upload an image and EmoNet will classify the detected face:
 
 ## 👨‍💻 Contributors
 
-# Priyanshu Chouhan
-# Krishna Gupta
+<p align="left">
+  <img src="https://img.shields.io/badge/Priyanshu Chouhan-yellow" />
+  <img src="https://img.shields.io/badge/Krishna Gupta-yellow" />
+</p>
 
 
 
